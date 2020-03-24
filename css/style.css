@@ -8,6 +8,7 @@ body {
   height: 100vh;
   cursor: url("../img/arrow.png") 50 0, auto;
   font-family: sans-serif;
+  user-select: none;
 }
 /* for change bkg */
 body {
