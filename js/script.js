@@ -33,7 +33,7 @@ $("#heart").click(function (e) {
     endHeartJump();
     yourLvl++
     speed = 1700;
-    $("body").css("background", "url(" + "../img/bkg-2.jpg" + ") top/cover");
+    $("body").css("background", "url(" + "img/bkg-2.jpg" + ") top/cover");
     return nextLevel();
   }
   if (score === 20) {
