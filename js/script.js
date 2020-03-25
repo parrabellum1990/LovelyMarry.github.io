@@ -33,35 +33,35 @@ $("#heart").click(function (e) {
     endHeartJump();
     yourLvl++
     speed = 1700;
-    $("body").css("background", "url(" + "img/bkg-2.jpg" + ") top/cover");
+    $("body").css("background", "url(" + "img/bkg-2.jpg" + ") cover");
     return nextLevel();
   }
   if (score === 20) {
     endHeartJump();
     yourLvl++
     speed = 1400;
-    $("body").css("background", "url(" + "img/bkg-3.jpg" + ") top/cover");
+    $("body").css("background", "url(" + "img/bkg-3.jpg" + ") center/cover");
     return nextLevel();
   }
   if (score === 30) {
     endHeartJump();
     yourLvl++
     speed = 1100;
-    $("body").css("background", "url(" + "img/bkg-4.jpg" + ") top/cover");
+    $("body").css("background", "url(" + "img/bkg-4.jpg" + ") center/cover");
     return nextLevel();
   }
   if (score === 40) {
     endHeartJump();
     yourLvl++
     speed = 800;
-    $("body").css("background", "url(" + "img/bkg-5.jpg" + ") top/cover");
+    $("body").css("background", "url(" + "img/bkg-5.jpg" + ") center/cover");
     return nextLevel();
   }
   if (score === 50) {
     endHeartJump();
     yourLvl++
     speed = 500;
-    $("body").css("background", "url(" + "img/bkg-6.jpg" + ") top/cover");
+    $("body").css("background", "url(" + "img/bkg-6.jpg" + ") center/cover");
     return nextLevel();
   }
 });

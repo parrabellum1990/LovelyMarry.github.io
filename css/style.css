@@ -12,7 +12,7 @@ body {
 }
 /* for change bkg */
 body {
-  background: url("../img/bkg-1.jpg") top/cover;
+  background: url("../img/bkg-1.jpg") center/cover;
 }
 /* display NONE/BLOCK class */
 .d-none {
