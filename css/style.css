@@ -84,8 +84,8 @@ body {
 /* JUMPING HEART */
 #heart {
   position: absolute;
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
 }
 #heart:active {
   transform: scale(1.2, 1.2);
@@ -113,8 +113,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  border: 2px solid red;
-  background-color: red;
+  border: 2px solid crimson;
+  background-color: crimson;
   min-width: 300px;
   max-width: 600px;
   border-radius: 5px;
